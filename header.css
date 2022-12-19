@@ -1,0 +1,11 @@
+.head{
+    display: flex;
+    position: absolute;
+    width: 30%;
+
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 5%;
+
+}

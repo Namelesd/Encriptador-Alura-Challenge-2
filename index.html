@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <title>Des/Encriptador Alura</title>
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+    <link href="./header.css" rel="stylesheet">
+    <link href="./body.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+</head>
+<body>
+
+        <header class="head">
+            <img src="./img/Logo.svg" class="logo">
+
+        </header>
+
+        <main>
+            <div class="principal">
+                <section class="zonadetexto">
+                <textarea autofocus onkeypress=" return event.charCode > 96 && event.charCode < 123 || event.charCode == 32" type="text"class="areaIngresada" data-input-form placeholder="Ingrese el texto aqui"></textarea>
+                </section>
+
+                <section class="zona_rectangulo" data-section>
+                        <div class="contenido_rectangulo">
+                            <img src="./img/Muñeco.png" class="muneco_rectangulo" >
+                                <div class="texto_rectangulo"> 
+                                    <p class="parrafo1">Ningún mensaje fue encontrado</p>
+                                    <p class="parrafo1 parrafo2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                                </div>    
+                        </div>    
+                        
+                </section>
+
+                <section class="area_botones" data-section2>
+                    <div class="areaDisclaimer">
+                    <img class="imagen_disclaimer" src="./img/Vector.png">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="solo_botones">
+                    <button class="Btn" type="button" data-form-btn>Encriptar</button>
+                    <button class="Btn desencriptar" type="button" data-form-btnd>Desencriptar</button>
+                    </div>
+                </section>
+
+            </div>
+        
+            </main>
+        
+
+        </body>
+
+    <footer class="footer container">
+
+    </footer>
+    <script type="module" src="main.js"  ></script>
+
+
+    
+
+
+</body>
+</html>
